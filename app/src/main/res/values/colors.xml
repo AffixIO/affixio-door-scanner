@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ready">#1F2A30</color>
+    <color name="admit">#1E8E4E</color>
+    <color name="deny">#C62828</color>
+    <color name="used">#E09B00</color>
+    <color name="error">#4A4F55</color>
+    <color name="on_status">#FFFFFF</color>
+    <color name="on_used">#1A1A1A</color>
+</resources>

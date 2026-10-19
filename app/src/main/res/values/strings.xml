@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Door Scanner</string>
+    <string name="settings">Settings</string>
+    <string name="ready">READY</string>
+    <string name="ready_hint">Scan a ticket QR or enter a 6-digit door code</string>
+    <string name="checking">CHECKING…</string>
+    <string name="admit">ADMIT</string>
+    <string name="deny">DENY</string>
+    <string name="already_used">ALREADY USED</string>
+    <string name="error">DO NOT ADMIT</string>
+    <string name="scan_camera">Scan with camera</string>
+    <string name="door_code_hint">Door code</string>
+    <string name="check">Check</string>
+    <string name="api_base">API base URL</string>
+    <string name="api_key">API key (stored on this device only)</string>
+    <string name="gate_id">Gate ID (optional, blank uses the ticket\'s gate)</string>
+    <string name="default_circuit">Circuit when the ticket does not say</string>
+    <string name="request_receipt">Ask for a signed receipt and check it on the device</string>
+    <string name="broadcast_actions">Scanner broadcast actions (one per line)</string>
+    <string name="broadcast_extras">Barcode data extra keys (one per line)</string>
+    <string name="save">Save</string>
+    <string name="datawedge_profile">Create Zebra DataWedge profile</string>
+    <string name="datawedge_sent">DataWedge profile request sent. Check DataWedge for the "AffixIODoorScanner" profile.</string>
+    <string name="saved">Saved</string>
+    <string name="camera_prompt">Point the camera at the ticket QR</string>
+    <string name="receipt_ok">Signed receipt verified on device</string>
+    <string name="receipt_bad">Receipt signature NOT verified: %1$s</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/SettingLabel" android:text="@string/api_base" />
+        <EditText android:id="@+id/apiBase" style="@style/SettingField" android:inputType="textUri" />
+
+        <TextView style="@style/SettingLabel" android:text="@string/api_key" />
+        <EditText android:id="@+id/apiKey" style="@style/SettingField" android:inputType="textPassword" />
+
+        <TextView style="@style/SettingLabel" android:text="@string/gate_id" />
+        <EditText android:id="@+id/gateId" style="@style/SettingField" android:inputType="text" />
+
+        <TextView style="@style/SettingLabel" android:text="@string/default_circuit" />
+        <EditText android:id="@+id/circuitId" style="@style/SettingField" android:inputType="text" />
+
+        <CheckBox
+            android:id="@+id/requestReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/request_receipt" />
+
+        <TextView style="@style/SettingLabel" android:text="@string/broadcast_actions" />
+        <EditText android:id="@+id/actions" style="@style/SettingField" android:inputType="textMultiLine" android:minLines="3" android:gravity="top" />
+
+        <TextView style="@style/SettingLabel" android:text="@string/broadcast_extras" />
+        <EditText android:id="@+id/extras" style="@style/SettingField" android:inputType="textMultiLine" android:minLines="3" android:gravity="top" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/datawedge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/datawedge_profile" />
+    </LinearLayout>
+</ScrollView>

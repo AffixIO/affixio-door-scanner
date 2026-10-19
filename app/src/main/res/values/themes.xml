@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DoorScanner" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/ready</item>
+        <item name="colorPrimaryDark">@color/ready</item>
+        <item name="colorAccent">@color/admit</item>
+    </style>
+</resources>
